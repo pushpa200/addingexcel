@@ -16,7 +16,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ReadingExcel {
-	public static final String SAMPLE_XLSX_FILE_PATH = "C:\\Users\\pushpa\\Desktop/java.xlsx";
+	public static final String SAMPLE_XLSX_FILE_PATH = "java.xlsx";
 
 	public Sheet getExcelData() throws EncryptedDocumentException, InvalidFormatException, IOException {
 		// Creating a Workbook from an Excel file (.xls or .xlsx)
